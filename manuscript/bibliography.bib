@@ -1,0 +1,760 @@
+@article{vegayon2019,
+  author = {George G. {Vega Yon} and Brian Quistorff},
+  title ={parallel: A command for parallel computing},
+  journal = {The Stata Journal},
+  volume = {19},
+  number = {3},
+  pages = {667-684},
+  year = {2019},
+  doi = {10.1177/1536867X19874242},
+  URL = {https://doi.org/10.1177/1536867X19874242},
+  eprint = {https://doi.org/10.1177/1536867X19874242}
+}
+@article{chernozhukov2022,
+  title={Fast algorithms for the quantile regression process},
+  author={Chernozhukov, Victor and Fernández-Val, Iván and Melly, Blaise},
+  journal={Empirical Economics},
+  volume={62},
+  number={1},
+  pages={7--33},
+  year={2022},
+  doi={10.1007/s00181-020-01898-0},
+  url={https://doi.org/10.1007/s00181-020-01898-0},
+  issn={1435-8921},
+  abstract={The widespread use of quantile regression methods depends crucially on the existence of fast algorithms. Despite numerous algorithmic improvements, the computation time is still non-negligible because researchers often estimate many quantile regressions and use the bootstrap for inference. We suggest two new fast algorithms for the estimation of a sequence of quantile regressions at many quantile indexes. The first algorithm applies the preprocessing idea of Portnoy and Koenker (Stat Sci 12(4):279–300, 1997) but exploits a previously estimated quantile regression to guess the sign of the residuals. This step allows for a reduction in the effective sample size. The second algorithm starts from a previously estimated quantile regression at a similar quantile index and updates it using a single Newton–Raphson iteration. The first algorithm is exact, while the second is only asymptotically equivalent to the traditional quantile regression estimator. We also apply the preprocessing idea to the bootstrap by using the sample estimates to guess the sign of the residuals in the bootstrap sample. Simulations show that our new algorithms provide very large improvements in computation time without significant (if any) cost in the quality of the estimates. For instance, we divide by 100 the time required to estimate 99 quantile regressions with 20 regressors and 50,000 observations.}
+}
+
+@techreport{wooldridge2021,
+  author = {Wooldridge, Jeffrey M.},
+  title = {Two-Way Fixed Effects, the Two-Way Mundlak Regression, and Difference-in-Differences Estimators},
+  year = {2021},
+  type = {Working Paper},
+  note = {Available at SSRN: https://ssrn.com/abstract=3906345}
+}
+@book{camerontrivedi2013,
+  author    = {A. Colin Cameron and Pravin K. Trivedi},
+  title     = {Regression Analysis of Count Data},
+  year      = {2013},
+  edition   = {2nd},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge}
+}
+
+@article{abrevaya2008,
+author = {Jason Abrevaya and Christian M Dahl},
+title = {The Effects of Birth Inputs on Birthweight},
+journal = {Journal of Business \& Economic Statistics},
+volume = {26},
+number = {4},
+pages = {379-397},
+year = {2008},
+publisher = {Taylor & Francis},
+xdoi = {10.1198/073500107000000269},
+xurl = { https://xdoi.org/10.1198/073500107000000269
+    },
+eprint = {  https://xdoi.org/10.1198/073500107000000269
+}
+
+}
+
+@article{canay2011,
+author = {Canay, Ivan A.},
+title = {A simple approach to quantile regression for panel data},
+journal = {The Econometrics Journal},
+volume = {14},
+number = {3},
+pages = {368-386},
+keywords = {Deconvolution, Panel data models, Quantile regression, Two-step estimator},
+xdoi = {https://xdoi.org/10.1111/j.1368-423X.2011.00349.x},
+xxurl = {https://onlinelibrary.wiley.com/xdoi/abs/10.1111/j.1368-423X.2011.00349.x},
+eprint = {https://onlinelibrary.wiley.com/xdoi/pdf/10.1111/j.1368-423X.2011.00349.x},
+abstract = {Summary  This paper provides a set of sufficient conditions that point identify a quantile regression model with fixed effects. It also proposes a simple transformation of the data that gets rid of the fixed effects under the assumption that these effects are location shifters. The new estimator is consistent and asymptotically normal as both n and T grow.},
+year = {2011}
+}
+
+@article{mss2019,
+title = {Quantiles via moments},
+journal = {Journal of Econometrics},
+volume = {213},
+number = {1},
+pages = {145-173},
+year = {2019},
+issn = {0304-4076},
+xdoi = {https://xdoi.org/10.1016/j.jeconom.2019.04.009},
+xxurl = {https://www.sciencedirect.com/science/article/pii/S0304407619300648},
+author = {José A.F. Machado and J.M.C. {Santos Silva}},
+keywords = {Endogeneity, Fixed effects, Linear heteroskedasticity, Location-scale model, Quantile regression},
+abstract = {We study the conditions under which it is possible to estimate regression quantiles by estimating conditional means. The advantage of this approach is that it allows the use of methods that are only valid in the estimation of conditional means, while still providing information on how the regressors affect the entire conditional distribution. The methods we propose are not meant to replace the well-established quantile regression estimator, but provide an additional tool that can allow the estimation of regression quantiles in settings where otherwise that would be difficult or even impossible. We consider two settings in which our approach can be particularly useful: panel data models with individual effects and models with endogenous explanatory variables. Besides presenting the estimator and establishing the regularity conditions needed for valid inference, we perform a small simulation experiment, present two simple illustrative applications, and discuss possible extensions.}
+}
+
+@article{chamberlain1982,
+title = {Multivariate regression models for panel data},
+journal = {Journal of Econometrics},
+volume = {18},
+number = {1},
+pages = {5-46},
+year = {1982},
+issn = {0304-4076},
+xdoi = {https://xdoi.org/10.1016/0304-4076(82)90094-X},
+xxurl = {https://www.sciencedirect.com/science/article/pii/030440768290094X},
+author = {Gary Chamberlain},
+abstract = {The paper examines the relationship between heterogeneity bias and strict exogeneity in a distributed lag regression of y on x. The relationship is very strong when x is continuous, weaker when x is discrete, and non-existent as the order of the distributed lag becomes infinite. The individual specific random variables introduce nonlinearity and heteroskedasticity; so the paper provides an appropriate framework for the estimation of multivariate linear predictors. Restrictions are imposed using a minimum distance estimator. It is generally more efficient than the conventional estimators such as quasi-maximum likelihood. There are computationally simple generalizations of two- and three-stage least squares that achieve this efficiency gain. Some of these ideas are illustrated using the sample of Young Men in the National Longitudinal Survey. The paper reports regressions on the leads and lags of variables measuring union coverage, SMSA, and region. The results indicate that the leads and lags could have been generated just by a random intercept. This gives some support for analysis of covariance type estimates; these estimates indicate a substantial heterogeneity bias in the union, SMSA, and region coefficients.}
+}
+
+@article{koenker1978,
+ ISSN = {00129682, 14680262},
+ xxurl = {http://www.jstor.org/stable/1913643},
+ abstract = {A simple minimization problem yielding the ordinary sample quantiles in the location model is shown to generalize naturally to the linear model generating a new class of statistics we term "regression quantiles." The estimator which minimizes the sum of absolute residuals is an important special case. Some equivariance properties and the joint asymptotic distribution of regression quantiles are established. These results permit a natural generalization of the linear model of certain well-known robust estimators of location. Estimators are suggested, which have comparable efficiency to least squares for Gaussian linear models while substantially out-performing the least-squares estimator over a wide class of non-Gaussian error distributions.},
+ author = {Roger Koenker and Gilbert Bassett},
+ journal = {Econometrica},
+ number = {1},
+ pages = {33--50},
+ publisher = {[Wiley, Econometric Society]},
+ title = {Regression Quantiles},
+ xurldate = {2024-03-02},
+ volume = {46},
+ year = {1978}
+}
+
+@article{riosavila2024,
+    author = {Fernando Rios-Avila and Leonardo Siles and Gustavo Canavire-Bacarreza},
+    title = {Estimating Quantile Regressions with Multiple Fixed Effects through Method of Moments},
+    journal = {IZA discussion Paper},
+    year = {2024}
+}
+
+@book{wooldridge2010,
+  title={Econometric analysis of cross section and panel data},
+  author={Wooldridge, Jeffrey M.},
+  year={2010},
+  publisher={MIT press}
+}
+
+@article{persson2007,
+  title={Electoral rules and government spending in parliamentary democracies},
+  author={Persson, Torsten and Roland, Gerard and Tabellini, Guido and others},
+  journal={Quarterly Journal of Political Science},
+  volume={2},
+  number={2},
+  pages={155--188},
+  year={2007}
+}
+
+
+@article{Dirac1953888,
+  title   = {The {Lorentz} transformation and absolute time},
+  journal = {Physica },
+  volume  = {19},
+  number  = {1-–12},
+  pages   = {888--896},
+  year    = {1953},
+  xdoi     = {10.1016/S0031-8914(53)80099-6},
+  author  = {P. A. M. Dirac}
+}
+
+@article{Feynman1963118,
+  title   = {The theory of a general quantum system interacting with a linear dissipative system},
+  journal = {Annals of Physics },
+  volume  = {24},
+  pages   = {118--173},
+  year    = {1963},
+  xdoi     = {10.1016/0003-4916(63)90068-X},
+  author  = {R. P Feynman and F. L {Vernon Jr.}}
+}
+
+ 
+
+
+@article{he1997,
+author = {Xuming He},
+title = {Quantile Curves without Crossing},
+journal = {The American Statistician},
+volume = {51},
+number = {2},
+pages = {186-192},
+year = {1997},
+publisher = {Taylor & Francis},
+xdoi = {10.1080/00031305.1997.10473959},
+xxurl = { https://www.tandfonline.com/xdoi/abs/10.1080/00031305.1997.10473959},
+eprint = {  https://www.tandfonline.com/xdoi/pdf/10.1080/00031305.1997.10473959},
+abstract = { Conventional regression techniques focus on the conditional averages, but often of more interest are lower or upper conditional quantiles. A more informative description of the relationship among variables can be obtained through regression quantiles (RQ). The percentile curves are usually computed one level at a time. Associated with great flexibility is the embarrassing phenomenon of quantile crossing. We propose a restricted version of regression quantiles (RRQ) that avoids the occurrence of crossing while maintaining sufficient modeling flexibility. RRQ remains in the general framework of the regression quantiles both conceptually and computationally. Because it relates all quantile functions through the conditional median, it also means substantial savings in computation costs when multiple quantiles for high-dimensional data are needed. Two examples in connection with the physical and engineering sciences are presented to demonstrate the usefulness of RRQ curves. }
+
+}
+
+@article{koenkerbasset1978,
+ ISSN = {00129682, 14680262},
+ xxurl = {http://www.jstor.org/stable/1913643},
+ abstract = {A simple minimization problem yielding the ordinary sample quantiles in the location model is shown to generalize naturally to the linear model generating a new class of statistics we term "regression quantiles." The estimator which minimizes the sum of absolute residuals is an important special case. Some equivariance properties and the joint asymptotic distribution of regression quantiles are established. These results permit a natural generalization of the linear model of certain well-known robust estimators of location. Estimators are suggested, which have comparable efficiency to least squares for Gaussian linear models while substantially out-performing the least-squares estimator over a wide class of non-Gaussian error distributions.},
+ author = {Roger Koenker and Gilbert Bassett},
+ journal = {Econometrica},
+ number = {1},
+ pages = {33--50},
+ publisher = {[Wiley, Econometric Society]},
+ title = {Regression Quantiles},
+ xurldate = {2023-10-20},
+ volume = {46},
+ year = {1978}
+}
+
+@article{lancaster2000,
+title = {The incidental parameter problem since 1948},
+journal = {Journal of Econometrics},
+volume = {95},
+number = {2},
+pages = {391-413},
+year = {2000},
+issn = {0304-4076},
+xdoi = {https://xdoi.org/10.1016/S0304-4076(99)00044-5},
+xxurl = {https://www.sciencedirect.com/science/article/pii/S0304407699000445},
+author = {Tony Lancaster},
+keywords = {Incidental parameters, Bayes, Nuisance parameters, Maximum likelihood},
+abstract = {This paper was written to mark the 50th anniversary of Neyman and Scott's Econometrica paper defining the incidental parameter problem. It surveys the history both of the paper and of the problem in the statistics and econometrics literature.}
+}
+
+@article{lamarche2010,
+title = {Robust penalized quantile regression estimation for panel data},
+journal = {Journal of Econometrics},
+volume = {157},
+number = {2},
+pages = {396-408},
+year = {2010},
+issn = {0304-4076},
+xdoi = {https://xdoi.org/10.1016/j.jeconom.2010.03.042},
+xxurl = {https://www.sciencedirect.com/science/article/pii/S0304407610000850},
+author = {Carlos Lamarche},
+keywords = {Shrinkage, Robust, Quantile regression, Panel data, Individual effects},
+abstract = {This paper investigates a class of penalized quantile regression estimators for panel data. The penalty serves to shrink a vector of individual specific effects toward a common value. The degree of this shrinkage is controlled by a tuning parameter λ. It is shown that the class of estimators is asymptotically unbiased and Gaussian, when the individual effects are drawn from a class of zero-median distribution functions. The tuning parameter, λ, can thus be selected to minimize estimated asymptotic variance. Monte Carlo evidence reveals that the estimator can significantly reduce the variability of the fixed-effect version of the estimator without introducing bias.}
+}
+
+@article{correia_feasible_nodate,
+	title = {A {Feasible} {Estimator} for {Linear} {Models} with {Multi}-{Way} {Fixed} {Effects}},
+	journal = {Unpublished Manuscript},
+	abstract = {I propose a feasible and computationally efficient estimator of linear models with multiple levels of fixed effects. First, I show that solving the two–way fixed effects model is equivalent to solving a linear system on a weighted graph, and apply recent advances in spectral graph theory to obtain a nearly–linear time estimator (Kelner et al, 2013). Second, I embed this estimator into an improved version of the generalized within–estimator of Guimarães and Portugal (2010) and Gaure (2013), replacing their projections with symmetric ones amenable to conjugate gradient acceleration, guaranteeing monotonic convergence. The proposed estimator has the fastest known asymptotic running time, and performs particularly well with large datasets and high–dimensional fixed effects. Morever, by combining insights from graph theory, it opens the door to further improvements on the estimation and inference of models with multi–way fixed effects.},
+	language = {en},
+	year = {2016},
+	xurl={http://scorreia.com/research/hdfe.pdf},
+	author = {Correia, Sergio},
+	file = {Correia - A Feasible Estimator for Linear Models with Multi-.pdf:C\:\\Users\\Fernando\\Zotero\\storage\\J2PS5PFA\\Correia - A Feasible Estimator for Linear Models with Multi-.pdf:application/pdf},
+}
+
+@article{dhaene2015,
+    author = {Dhaene, Geert and Jochmans, Koen},
+    title = "{Split-panel Jackknife Estimation of Fixed-effect Models}",
+    journal = {The Review of Economic Studies},
+    volume = {82},
+    number = {3},
+    pages = {991-1030},
+    year = {2015},
+    month = {02},
+    abstract = "{Maximum-likelihood estimation of nonlinear models with fixed effects is subject to the incidental-parameter problem. This typically implies that point estimates suffer from large bias and confidence intervals have poor coverage. This article presents a jackknife method to reduce this bias and to obtain confidence intervals that are correctly centred under rectangular-array asymptotics. The method is explicitly designed to handle dynamics in the data, and yields estimators that are straightforward to implement and can be readily applied to a range of models and estimands. We provide distribution theory for estimators of model parameters and average effects, present validity tests for the jackknife, and consider extensions to higher-order bias correction and to two-step estimation problems. An empirical illustration relating to female labour-force participation is also provided.}",
+    issn = {0034-6527},
+    xdoi = {10.1093/restud/rdv007},
+    xxurl = {https://xdoi.org/10.1093/restud/rdv007},
+    eprint = {https://academic.oup.com/restud/article-pdf/82/3/991/5371725/rdv007.pdf},
+}
+
+
+
+
+
+@book{persson_economic_2005,
+	address = {Cambridge, Mass.},
+	edition = {1. MIT Press paperback ed},
+	series = {Munich lectures in economics},
+	title = {The economic effects of constitutions},
+	isbn = {978-0-262-66192-8 978-0-262-16219-7},
+	language = {eng},
+	publisher = {MIT Press},
+	author = {Persson, Torsten and Tabellini, Guido Enrico},
+	year = {2005},
+	annote = {Literaturverz. S. [287] - 295},
+	file = {Table of Contents PDF:C\:\\Users\\Fernando\\Zotero\\storage\\4M2US9UX\\Persson and Tabellini - 2005 - The economic effects of constitutions.pdf:application/pdf},
+}
+
+
+@article{cameron_robust_2011,
+	title = {Robust {Inference} {With} {Multiway} {Clustering}},
+	volume = {29},
+	issn = {0735-0015, 1537-2707},
+	xxurl = {http://www.tandfonline.com/xdoi/abs/10.1198/jbes.2010.07136},
+	xdoi = {10.1198/jbes.2010.07136},
+	language = {en},
+	number = {2},
+	xurldate = {2023-05-02},
+	journal = {Journal of Business \& Economic Statistics},
+	author = {Cameron, A. Colin and Gelbach, Jonah B. and Miller, Douglas L.},
+	month = apr,
+	year = {2011},
+	pages = {238--249},
+	file = {Full Text:C\:\\Users\\Fernando\\Zotero\\storage\\896F28IM\\Cameron et al. - 2011 - Robust Inference With Multiway Clustering.pdf:application/pdf},
+}
+
+
+@book{hampel2005,
+	edition = {1},
+	series = {Wiley {Series} in {Probability} and {Statistics}},
+	title = {Robust {Statistics}: {The} {Approach} {Based} on {Influence} {Functions}},
+	isbn = {978-0-471-73577-9 978-1-118-18643-5},
+	shorttitle = {Robust {Statistics}},
+	xxurl = {https://onlinelibrary.wiley.com/xdoi/book/10.1002/9781118186435},
+	language = {en},
+	xurldate = {2023-10-27},
+	publisher = {Wiley},
+	author = {Hampel, Frank R. and Ronchetti, Elvezio M. and Rousseeuw, Peter J. and Stahel, Werner A.},
+	month = mar,
+	year = {2005},
+	xdoi = {10.1002/9781118186435},
+}
+
+@incollection{kato2017,
+	title = {Quantile {Regression} {Methods} for {Longitudinal} {Data}},
+	isbn = {978-1-315-12025-6},
+	abstract = {This chapter attempts to provide a progress report on the current state of quantile regression (QR) methods for panel data. Roger Koenker introduced a general approach to the estimation of QR models for longitudinal data where individual effects are treated as pure location shift parameters common to all quantiles and may be subject to shrinkage toward a common value. The properties of the QR method are well established for cross-sectional models; see the landmark monograph by Koenker for references and discussion. A conceptually simple way of applying the QR method to panel data is to model the conditional quantile of the response variable given the regressors and individual effect as the addition of the individual effect and a linear function of the regressors, and then apply fixed effects estimation by treating the individual effects as parameters to be estimated. The chapter describes a few extensions of QR methods for longitudinal data to models with endogeneity, semiparametric QR models for longitudinal data.},
+	booktitle = {Handbook of {Quantile} {Regression}},
+	publisher = {Chapman and Hall/CRC},
+	author = {Kato, Kengo, Antonio F. Galvao},
+	year = {2017},
+	note = {Num Pages: 18},
+}
+
+@incollection{galvao2017quantile,
+  title={Quantile regression methods for longitudinal data},
+  author={Antonio F. Galvao and Kato Kengo},
+  booktitle={Handbook of quantile regression},
+  pages={363--380},
+  year={2017},
+  publisher={Chapman and Hall/CRC}
+}
+
+
+@TechReport{jann_2020,
+  author={Ben Jann},
+  title={{Influence functions continued. A framework for estimating standard errors in reweighting, matching, and regression adjustment}},
+  year=2020,
+  month=Mar,
+  institution={University of Bern, Department of Social Sciences},
+  type={University of Bern Social Sciences Working Papers},
+  xurl={https://ideas.repec.org/p/bss/wpaper/35.html},
+  number={35},
+  abstract={In Jann (2019) I provided some reflections on influence functions for linear regression (with an application to regression adjustment). Based on an analogy to variance estimation in the generalized method of moments (GMM), I extend the discussion in this paper to maximum-likelihood models such as logistic regression and then provide influence functions for a variety of treatment effect estimators such as inverse-probability weighting (IPW), regression adjustment (RA), inverse-probability weighted regression adjustment (IPWRA), exact matching (EM), Mahalanobis distance matching (MD), and entropy balancing (EB). The goal of this exercise is to provide a framework for standard error estimation in all these estimators.},
+  keywords={influence function; sampling variance; standard error; generalized method of moments; maximum likeli},
+  xdoi={},
+}
+
+
+
+@article{im2000,
+title = {Robustifying Glejser test of heteroskedasticity},
+journal = {Journal of Econometrics},
+volume = {97},
+number = {1},
+pages = {179-188},
+year = {2000},
+issn = {0304-4076},
+xdoi = {https://xdoi.org/10.1016/S0304-4076(99)00061-5},
+xxurl = {https://www.sciencedirect.com/science/article/pii/S0304407699000615},
+author = {Kyung So Im},
+keywords = {Heteroskedasticity, Glejser test, Size},
+abstract = {Verifying that the Glejser test for heteroskedasticity is asymptotically invalid unless the error density is symmetric, this paper proposes a simple modification to make the test robust to asymmetric disturbances. Simulation results demonstrate that the size of the modified test is correct for both symmetric and skewed errors.}
+}
+
+@article{rios2015,
+	title = {Feasible {Fitting} of {Linear} {Models} with {N} {Fixed} {Effects}},
+	volume = {15},
+	copyright = {All rights reserved},
+	issn = {1536-867X},
+	xxurl = {https://xdoi.org/10.1177/1536867X1501500318},
+	xdoi = {10.1177/1536867X1501500318},
+	abstract = {In this article, I describe an alternative approach for fitting linear models with multiple high-order fixed effects. The strategy relies on transforming the data before fitting the model. While the approach is computationally intensive, the hardware requirements for the fitting are minimal, allowing for estimation in models with multiple high-order fixed effects for large datasets. I illustrate implementing this approach using the U.S. Census Bureau Current Population Survey data with four fixed effects. I also present a new Stata command, regxfe, for implementing this strategy.},
+	number = {3},
+	xurldate = {2023-03-15},
+	journal = {The Stata Journal},
+	author = {Rios-Avila, Fernando},
+	month = oct,
+	year = {2015},
+	note = {Publisher: SAGE Publications},
+	pages = {881--898},
+	file = {SAGE PDF Full Text:C\:\\Users\\Fernando\\Zotero\\storage\\3ZAVJCKE\\Rios-Avila - 2015 - Feasible Fitting of Linear Models with N Fixed Eff.pdf:application/pdf},
+}
+
+
+@article{gaure2013,
+	title = {{OLS} with multiple high dimensional category variables},
+	volume = {66},
+	issn = {0167-9473},
+	xurl = {https://www.sciencedirect.com/science/article/pii/S0167947313001266},
+	xdoi = {https://xdoi.org/10.1016/j.csda.2013.03.024},
+	abstract = {A new algorithm is proposed for OLS estimation of linear models with multiple high-dimensional category variables. It is a generalization of the within transformation to arbitrary number of category variables. The approach, unlike other fast methods for solving such problems, provides a covariance matrix for the remaining coefficients. The article also sets out a method for solving the resulting sparse system, and the new scheme is shown, by some examples, to be comparable in computational efficiency to other fast methods. The method is also useful for transforming away groups of pure control dummies. A parallelized implementation of the proposed method has been made available as an R-package lfe on CRAN.},
+	journal = {Computational Statistics \& Data Analysis},
+	author = {Gaure, Simen},
+	year = {2013},
+	keywords = {Alternating projections, Fixed effect estimator, High dimensional category variables, Kaczmarz method, Multiple fixed effects, Panel data, Two-way fixed effects},
+	pages = {8--18},
+}
+
+
+@article{harrissass2011,
+	title = {Teacher training, teacher quality and student achievement},
+	volume = {95},
+	issn = {0047-2727},
+	xurl = {https://www.sciencedirect.com/science/article/pii/S0047272710001696},
+	xdoi = {https://xdoi.org/10.1016/j.jpubeco.2010.11.009},
+	abstract = {We study the effects of various types of education and training on the productivity of teachers in promoting student achievement. Previous studies on the subject have been hampered by inadequate measures of teacher training and difficulties in addressing the non-random selection of teachers to students and of teachers to training. We address these issues by estimating models that include detailed measures of pre-service and in-service training, a rich set of time-varying covariates, and student, teacher, and school fixed effects. We find that elementary and middle school teacher productivity increases with experience (informal on-the-job training). The largest gains from experience occur in the first few years, but we find continuing gains beyond the first five years of a teacher's career. In contrast, we do not find a consistent relationship between formal professional development training and teacher productivity. However, this may be partly driven by estimation issues as we find more significant positive effects of formal training in the subject-grade combination where estimates should be most precise (middle school math). There is no evidence that teachers' pre-service (undergraduate) training or college entrance exam scores are related to productivity.},
+	number = {7},
+	journal = {Journal of Public Economics},
+	author = {Harris, Douglas N. and Sass, Tim R.},
+	year = {2011},
+	keywords = {Student achievement, Teacher quality, Teacher training},
+	pages = {798--812},
+}
+
+
+@article{abowed2006,
+author = {Abowd, John M. and Kramarz, Francis and Roux, Sébastien},
+title = {Wages, Mobility and Firm Performance: Advantages and Insights from Using Matched Worker–Firm Data*},
+journal = {The Economic Journal},
+volume = {116},
+number = {512},
+pages = {F245-F285},
+xdoi = {https://xdoi.org/10.1111/j.1468-0297.2006.01099.x},
+xurl = {https://onlinelibrary.wiley.com/xdoi/abs/10.1111/j.1468-0297.2006.01099.x},
+eprint = {https://onlinelibrary.wiley.com/xdoi/pdf/10.1111/j.1468-0297.2006.01099.x},
+abstract = {To illustrate the wide applicability of longitudinal matched employer-employee data, we study the simultaneous determination of worker mobility and wage rates using an econometric model that allows for both individual and firm-level heterogeneity. The model is estimated using longitudinally linked employer–employee data from France. Structural results for mobility show remarkable heterogeneity with both positive and negative duration dependence present in a significant proportion of firms. The average structural returns to seniority are essentially zero, but this result masks enormous heterogeneity with positive seniority returns found in low starting-wage firms.},
+year = {2006}
+}
+
+
+@article{zhao2000,
+	title = {Restricted {Regression} {Quantiles}},
+	volume = {72},
+	issn = {0047-259X},
+	xurl = {https://www.sciencedirect.com/science/article/pii/S0047259X99918493},
+	xdoi = {https://xdoi.org/10.1006/jmva.1999.1849},
+	abstract = {Regression quantiles can be used as prediction intervals for the response variable. But such applications are often hampered by the problem of quantile crossing in finite sample cases. This article examines the efficiency properties of restricted regression quantiles that are proposed by X. He (1997, Amer. Statist.51, 186–192) to overcome the crossing problem of the usual regression quantiles of R. Koenker and G. Bassett (1978, Econometrica46, 33–50) for linear models. An example using esterase assay data is presented to illustrate the use of restricted regression quantiles in constructing calibration intervals.},
+	number = {1},
+	journal = {Journal of Multivariate Analysis},
+	author = {Zhao, Quanshui},
+	year = {2000},
+	keywords = {efficiency, heteroscedasticity, linear model, regression quantile},
+	pages = {78--99},
+}
+
+
+@incollection{newey_chapter_1994,
+	title = {Chapter 36 {Large} sample estimation and hypothesis testing},
+	volume = {4},
+	isbn = {978-0-444-88766-5},
+	xurl = {https://linkinghub.elsevier.com/retrieve/pii/S1573441205800054},
+	language = {en},
+	xurldate = {2023-10-23},
+	booktitle = {Handbook of {Econometrics}},
+	publisher = {Elsevier},
+	author = {Newey, Whitney K. and McFadden, Daniel},
+	year = {1994},
+	xdoi = {10.1016/S1573-4412(05)80005-4},
+	pages = {2111--2245},
+}
+
+@article{neymanscott1948,
+ ISSN = {00129682, 14680262},
+ xurl = {http://www.jstor.org/stable/1914288},
+ author = {J. Neyman and Elizabeth L. Scott},
+ journal = {Econometrica},
+ number = {1},
+ pages = {1--32},
+ publisher = {[Wiley, Econometric Society]},
+ title = {Consistent Estimates Based on Partially Consistent Observations},
+ xurldate = {2023-10-20},
+ volume = {16},
+ year = {1948}
+}
+
+@unpublished{melly2023,
+  author = {Melly, Blaise and Pons, Martina},
+  title = {Minimum Distance Estimation of Quantile Panel Data Models},
+  year = {2023},
+  note = {Unpublished working paper},
+  xurl = {https://martinapons.github.io/files/MD.pdf}
+}
+
+@article{wooldridge2019,
+  author = {Wooldridge, Jeffrey M.},
+  title = {Correlated Random Effects Models with Unbalanced Panels},
+  journal = {Journal of Econometrics},
+  volume = {211},
+  number = {1},
+  pages = {137--150},
+  year = {2019},
+  xxdoi = {10.1016/j.jeconom.2018.12.010}
+}
+
+@article{koenker2004,
+title = {Quantile regression for longitudinal data},
+journal = {Journal of Multivariate Analysis},
+volume = {91},
+number = {1},
+pages = {74-89},
+year = {2004},
+note = {Special Issue on Semiparametric and Nonparametric Mixed Models},
+issn = {0047-259X},
+xdoi = {https://xdoi.org/10.1016/j.jmva.2004.05.006},
+xurl = {https://www.sciencedirect.com/science/article/pii/S0047259X04001113},
+author = {Roger Koenker},
+keywords = {Quantile regression, Penalty methods, Shrinkage, L-statistics, Random effects, Robust estimation, Hierarchical models},
+abstract = {The penalized least squares interpretation of the classical random effects estimator suggests a possible way forward for quantile regression models with a large number of “fixed effects”. The introduction of a large number of individual fixed effects can significantly inflate the variability of estimates of other covariate effects. Regularization, or shrinkage of these individual effects toward a common value can help to modify this inflation effect. A general approach to estimating quantile regression models for longitudinal data is proposed employing ℓ1 regularization methods. Sparse linear algebra and interior point methods for solving large linear programs are essential computational tools.}
+}
+
+
+@book{cameron2005,
+	address = {Cambridge ; New York},
+	title = {Microeconometrics: methods and applications},
+	isbn = {978-0-521-84805-3},
+	shorttitle = {Microeconometrics},
+	publisher = {Cambridge University Press},
+	author = {Cameron, A. Colin and Trivedi, Pravin K.},
+	year = {2005},
+	keywords = {Econometric models, Microeconomics},
+}
+
+@article{frishwaugh1933,
+ ISSN = {00129682, 14680262},
+ xurl = {http://www.jstor.org/stable/1907330},
+ author = {Ragnar Frisch and Frederick V. Waugh},
+ journal = {Econometrica},
+ number = {4},
+ pages = {387--401},
+ publisher = {[Wiley, Econometric Society]},
+ title = {Partial Time Regressions as Compared with Individual Trends},
+ xurldate = {2023-10-20},
+ volume = {1},
+ year = {1933}
+}
+
+
+@article{lovell1963,
+author = {Michael C. Lovell},
+title = {Seasonal Adjustment of Economic Time Series and Multiple Regression Analysis},
+journal = {Journal of the American Statistical Association},
+volume = {58},
+number = {304},
+pages = {993-1010},
+year = {1963},
+publisher = {Taylor & Francis},
+xdoi = {10.1080/01621459.1963.10480682},
+xurl = {https://www.tandfonline.com/xdoi/abs/10.1080/01621459.1963.10480682},
+eprint = {https://www.tandfonline.com/xdoi/pdf/10.1080/01621459.1963.10480682}
+}
+
+
+@book{koenker_quantile_2005,
+	address = {Cambridge},
+	title = {Quantile regression},
+	isbn = {978-0-511-13034-2},
+	abstract = {Quantile regression is gradually emerging as a unified statistical methodology for estimating models of conditional quantile functions. By complementing the exclusive focus of classical least squares regression on the conditional mean, quantile regression offers a systematic strategy for examining how covariates influence the location, scale and shape of the entire response distribution. This monograph is the first comprehensive treatment of the subject, encompassing models that are linear and nonlinear, parametric and nonparametric. The author has devoted more than 25 years of research to this topic. The methods in the analysis are illustrated with a variety of applications from economics, biology, ecology and finance. The treatment will find its core audiences in econometrics, statistics, and applied mathematics in addition to the disciplines cited above},
+	language = {eng},
+	publisher = {Cambridge University Press},
+	author = {Koenker, Roger},
+	year = {2005},
+	note = {OCLC: 61895919},
+}
+
+@article{frumentobotai2016,
+author = {Frumento, Paolo and Bottai, Matteo},
+title = {Parametric modeling of quantile regression coefficient functions},
+journal = {Biometrics},
+volume = {72},
+number = {1},
+pages = {74-84},
+keywords = {Inspiratory capacity, Integrated loss minimization (ILM), Quantile regression coefficients modeling (QRCM)},
+xdoi = {https://xdoi.org/10.1111/biom.12410},
+xurl = {https://onlinelibrary.wiley.com/xdoi/abs/10.1111/biom.12410},
+eprint = {https://onlinelibrary.wiley.com/xdoi/pdf/10.1111/biom.12410},
+abstract = {Summary Estimating the conditional quantiles of outcome variables of interest is frequent in many research areas, and quantile regression is foremost among the utilized methods. The coefficients of a quantile regression model depend on the order of the quantile being estimated. For example, the coefficients for the median are generally different from those of the 10th centile. In this article, we describe an approach to modeling the regression coefficients as parametric functions of the order of the quantile. This approach may have advantages in terms of parsimony, efficiency, and may expand the potential of statistical modeling. Goodness-of-fit measures and testing procedures are discussed, and the results of a simulation study are presented. We apply the method to analyze the data that motivated this work. The described method is implemented in the qrcm R package.},
+year = {2016}
+}
+
+
+@article{romano_2017,
+	title = {Resurrecting weighted least squares},
+	volume = {197},
+	issn = {0304-4076},
+	xurl = {https://www.sciencedirect.com/science/article/pii/S030440761630197X},
+	xdoi = {https://xdoi.org/10.1016/j.jeconom.2016.10.003},
+	abstract = {This paper shows how asymptotically valid inference in regression models based on the weighted least squares (WLS) estimator can be obtained even when the model for reweighting the data is misspecified. Like the ordinary least squares estimator, the WLS estimator can be accompanied by heteroskedasticity-consistent (HC) standard errors without knowledge of the functional form of conditional heteroskedasticity. First, we provide rigorous proofs under reasonable assumptions; second, we provide numerical support in favor of this approach. Indeed, a Monte Carlo study demonstrates attractive finite-sample properties compared to the status quo, in terms of both estimation and inference.},
+	number = {1},
+	journal = {Journal of Econometrics},
+	author = {Romano, Joseph P. and Wolf, Michael},
+	year = {2017},
+	keywords = {Conditional heteroskedasticity, HC standard errors, Weighted least squares},
+	pages = {1--19},
+}
+
+
+
+@article{kaplan2017,
+	title = {Smoothed estimating equations for instrumental variables quantile regression},
+	volume = {33},
+	issn = {0266-4666, 1469-4360},
+	xurl = {https://www.cambridge.org/core/journals/econometric-theory/article/abs/smoothed-estimating-equations-for-instrumental-variables-quantile-regression/59EE6581C077098DDBB87F3E98F9BF90#},
+	xdoi = {10.1017/S0266466615000407},
+	abstract = {The moment conditions or estimating equations for instrumental variables quantile regression involve the discontinuous indicator function. We instead use smoothed estimating equations (SEE), with bandwidth h. We show that the mean squared error (MSE) of the vector of the SEE is minimized for some h {\textgreater} 0, leading to smaller asymptotic MSE of the estimating equations and associated parameter estimators. The same MSE-optimal h also minimizes the higher-order type I error of a SEE-based χ2 test and increases size-adjusted power in large samples. Computation of the SEE estimator also becomes simpler and more reliable, especially with (more) endogenous regressors. Monte Carlo simulations demonstrate all of these superior properties in finite samples, and we apply our estimator to JTPA data. Smoothing the estimating equations is not just a technical operation for establishing Edgeworth expansions and bootstrap refinements; it also brings the real benefits of having more precise estimators and more powerful tests.},
+	language = {en},
+	number = {1},
+	xurldate = {2023-10-23},
+	journal = {Econometric Theory},
+	author = {Kaplan, David M. and Sun, Yixiao},
+	month = feb,
+	year = {2017},
+	note = {Publisher: Cambridge University Press},
+	pages = {105--157},
+	file = {Accepted Version:C\:\\Users\\Fernando\\Zotero\\storage\\WDYU6NP6\\Kaplan and Sun - 2017 - SMOOTHED ESTIMATING EQUATIONS FOR INSTRUMENTAL VAR.pdf:application/pdf},
+}
+
+
+@article{melly2005,
+	title = {Decomposition of differences in distribution using quantile regression},
+	volume = {12},
+	issn = {0927-5371},
+	xurl = {https://www.sciencedirect.com/science/article/pii/S0927537105000382},
+	xdoi = {https://xdoi.org/10.1016/j.labeco.2005.05.006},
+	abstract = {This paper proposes a semiparametric estimator of distribution functions in the presence of covariates. The method is based on the estimation of the conditional distribution by quantile regression. The conditional distribution is then integrated over the range of covariates. Counterfactual distributions can be estimated, allowing the decomposition of changes in distribution into three factors: coefficients, covariates and residuals. Sources of changes in wage inequality in the USA between 1973 and 1989 are examined. Unlike most of the literature, we find that residuals account for only 20\% of the explosion of inequality in the 80s.},
+	number = {4},
+	journal = {Labour Economics},
+	author = {Melly, Blaise},
+	year = {2005},
+	keywords = {Oaxaca Decomposition, Quantile Regression, Wage Inequality},
+	pages = {577--590},
+	annote = {European Association of Labour Economists 16th Annual Conference, Universidade Nova de Lisboa, Lisbon, 9th – 11th Sepetember, 2004},
+}
+
+
+
+@article{budig2001,
+	title = {The Wage Penalty for Motherhood},
+	author = {Budig, Michelle J. and England, Paula},
+	year = {2001},
+	month = {04},
+	date = {2001-04},
+	journal = {American Sociological Review},
+	pages = {204--225},
+	volume = {66},
+	number = {2},
+	doi = {10.1177/000312240106600203},
+	url = {http://dx.doi.org/10.1177/000312240106600203},
+	langid = {en}
+}
+
+@article{budig2010,
+	title = {Differences in Disadvantage},
+	author = {Budig, Michelle J. and Hodges, Melissa J.},
+	year = {2010},
+	month = {10},
+	date = {2010-10},
+	journal = {American Sociological Review},
+	pages = {705--728},
+	volume = {75},
+	number = {5},
+	doi = {10.1177/0003122410381593},
+	url = {http://dx.doi.org/10.1177/0003122410381593},
+	langid = {en}
+}
+
+@article{hausman2021,
+	title = {Errors in the Dependent Variable of Quantile Regression Models},
+	author = {Hausman, Jerry and Liu, Haoyang and Luo, Ye and Palmer, Christopher},
+	year = {2021},
+	date = {2021},
+	journal = {Econometrica},
+	pages = {849--873},
+	volume = {89},
+	number = {2},
+	doi = {10.3982/ecta14667},
+	url = {http://dx.doi.org/10.3982/ECTA14667},
+	langid = {en}
+}
+
+@article{mundlak1978,
+	title = {On the Pooling of Time Series and Cross Section Data},
+	author = {Mundlak, Yair},
+	year = {1978},
+	month = {01},
+	date = {1978-01},
+	journal = {Econometrica},
+	pages = {69},
+	volume = {46},
+	number = {1},
+	doi = {10.2307/1913646},
+	url = {http://dx.doi.org/10.2307/1913646}
+}
+
+@article{baltagi2023,
+	title = {The two-way Mundlak estimator},
+	author = {Baltagi, Badi H.},
+	year = {2023},
+	month = {02},
+	date = {2023-02-01},
+	journal = {Econometric Reviews},
+	pages = {240--246},
+	volume = {42},
+	number = {2},
+	doi = {10.1080/07474938.2023.2178139},
+	url = {https://www.tandfonline.com/doi/full/10.1080/07474938.2023.2178139},
+	langid = {en}
+}
+
+@Misc{grqreg,
+  author={Joao Pedro Azevedo},
+  title={{GRQREG: Stata module to graph the coefficients of a quantile regression}},
+  year=2004,
+  month=Jan,
+  howpublished={Statistical Software Components, Boston College Department of Economics},
+  abstract={grqreg graphs the coefficients of a quantile regression.},
+  keywords={quantile regression; graphs; Stata},
+  doi={},
+  url={https://ideas.repec.org/c/boc/bocode/s437001.html},
+}
+
+@article{abrevaya2013,
+	title = {The projection approach for unbalanced panel data},
+	author = {Abrevaya, Jason},
+	year = {2013},
+	month = {06},
+	date = {2013-06-01},
+	journal = {The Econometrics Journal},
+	pages = {161--178},
+	volume = {16},
+	number = {2},
+	doi = {10.1111/j.1368-423x.2012.00389.x},
+	url = {http://dx.doi.org/10.1111/j.1368-423X.2012.00389.x},
+	langid = {en}
+}
+
+@article{bottai2019,
+	title = {qmodel: A command for fitting parametric quantile models},
+	author = {Bottai, Matteo and Orsini, Nicola},
+	year = {2019},
+	month = {06},
+	date = {2019-06},
+	journal = {The Stata Journal: Promoting communications on statistics and Stata},
+	pages = {261--293},
+	volume = {19},
+	number = {2},
+	doi = {10.1177/1536867x19854002},
+	url = {http://dx.doi.org/10.1177/1536867X19854002},
+	langid = {en}
+}
+
+@article{besstremyannaya2019,
+	title = {Reconsideration of a simple approach to quantile regression for panel data},
+	author = {Besstremyannaya, Galina and Golovan, Sergei},
+	year = {2019},
+	month = {09},
+	date = {2019-09-01},
+	journal = {The Econometrics Journal},
+	pages = {292--308},
+	volume = {22},
+	number = {3},
+	doi = {10.1093/ectj/utz012},
+	url = {http://dx.doi.org/10.1093/ectj/utz012},
+	langid = {en}
+}

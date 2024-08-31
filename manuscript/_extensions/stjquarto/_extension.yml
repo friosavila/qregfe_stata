@@ -1,0 +1,25 @@
+title: Stjquarto
+author: Fernando Rios-Avila
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    common:
+      filters:
+        - stjquarto.lua
+    pdf:
+        documentclass: statapress
+        template: "template.tex"
+        template-partials: 
+          - partials/_authors.tex
+        number-sections: true
+        format-resources:
+          - sources/pagedims.sty
+          - sources/sj.bst
+          - sources/sj.sty
+          - sources/stata.sty          
+          - sources/statapress.cls
+          
+  biblio-style: sj
+
+

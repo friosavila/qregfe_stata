@@ -1,0 +1,44 @@
+
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+            &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{CRE}&\multicolumn{1}{c}{Canay}&\multicolumn{1}{c}{MCanay}&\multicolumn{1}{c}{MMqreg}\\
+\hline
+main        &                     &                     &                     &                     &                     \\
+age         &      -0.004\sym{***}&      -0.009\sym{***}&      -0.005\sym{***}&      -0.005\sym{***}&      -0.004\sym{***}\\
+            &     (0.001)         &     (0.001)         &     (0.000)         &     (0.000)         &     (0.001)         \\
+ 
+tenure      &       0.011\sym{***}&       0.016\sym{***}&       0.011\sym{***}&       0.011\sym{***}&       0.010\sym{***}\\
+            &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         \\
+ 
+ttl\_exp     &       0.030\sym{***}&       0.031\sym{***}&       0.029\sym{***}&       0.029\sym{***}&       0.030\sym{***}\\
+            &     (0.002)         &     (0.002)         &     (0.001)         &     (0.001)         &     (0.002)         \\
+ 
+not\_smsa    &      -0.098\sym{***}&      -0.088\sym{***}&      -0.098\sym{***}&      -0.099\sym{***}&      -0.099\sym{***}\\
+            &     (0.010)         &     (0.015)         &     (0.003)         &     (0.003)         &     (0.010)         \\
+ 
+m1\_age      &                     &       0.009\sym{***}&                     &                     &                     \\
+            &                     &     (0.002)         &                     &                     &                     \\
+ 
+m1\_tenure   &                     &       0.016\sym{***}&                     &                     &                     \\
+            &                     &     (0.002)         &                     &                     &                     \\
+ 
+m1\_ttl\_exp  &                     &       0.010\sym{***}&                     &                     &                     \\
+            &                     &     (0.003)         &                     &                     &                     \\
+ 
+m1\_not\_smsa &                     &      -0.150\sym{***}&                     &                     &                     \\
+            &                     &     (0.016)         &                     &                     &                     \\
+ 
+\_\_f1\_\_      &                     &                     &                     &       0.991\sym{***}&                     \\
+            &                     &                     &                     &     (0.005)         &                     \\
+ 
+\_cons      &       1.586\sym{***}&       1.696\sym{***}&       1.654\sym{***}&       1.653\sym{***}&       1.606\sym{***}\\
+            &     (0.019)         &     (0.028)         &     (0.009)         &     (0.009)         &     (0.021)         \\
+\hline
+\(N\)       &       23534         &       23534         &       23534         &       23534         &       23534         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+
